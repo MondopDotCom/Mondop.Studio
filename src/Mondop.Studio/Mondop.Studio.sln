@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mondop.Studio", "Mondop.Studio\Mondop.Studio.csproj", "{C1DAEAD8-A41C-4BD7-ACD3-1D875FCC214C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mondop.Studio.Application", "Mondop.Studio.Application\Mondop.Studio.Application.csproj", "{1683050A-7E0B-484A-A87C-9E9E62CE4FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DAEAD8-A41C-4BD7-ACD3-1D875FCC214C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DAEAD8-A41C-4BD7-ACD3-1D875FCC214C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DAEAD8-A41C-4BD7-ACD3-1D875FCC214C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DAEAD8-A41C-4BD7-ACD3-1D875FCC214C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1683050A-7E0B-484A-A87C-9E9E62CE4FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1683050A-7E0B-484A-A87C-9E9E62CE4FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1683050A-7E0B-484A-A87C-9E9E62CE4FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1683050A-7E0B-484A-A87C-9E9E62CE4FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800537A6-3975-4514-AF80-34ABF20BCE26}
+	EndGlobalSection
+EndGlobal

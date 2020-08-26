@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.3-ALPHA001</Version>
+    <PackageReleaseNotes>0.0.2: Added System.Guid.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mondop.Abstractions" Version="1.0.4" />
+    <PackageReference Include="Mondop.Core" Version="1.2.2" />
+    <PackageReference Include="Mondop.Core.Rendering" Version="0.0.3-ALPHA003" />
+    <PackageReference Include="Mondop.Mockables" Version="0.0.4" />
+    <PackageReference Include="Mondop.VisualStudio.Solution" Version="0.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>

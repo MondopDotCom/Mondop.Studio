@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard1.0;netstandard2.0</TargetFrameworks>
+    <Version>0.0.5-Alpha007</Version>
+    <Authors>M. Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop CodeDom</Product>
+    <Copyright>Copyright 2017 by It-actief</Copyright>
+    <PackageProjectUrl>www.mondop.com</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.CodeDom</RepositoryUrl>
+    <PackageTags>Mondop CodeDom</PackageTags>
+    <AssemblyVersion>0.0.5.0</AssemblyVersion>
+    <FileVersion>0.0.5.0</FileVersion>
+    <PackageReleaseNotes>0.0.3: Added Attributes, Method declarations, interface members, method containers
+
+0.0.4: Added Database, DatabaseCommands
+</PackageReleaseNotes>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Version>0.0.7-ALPHA002</Version>
+    <Authors>M. Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop</Product>
+    <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
+    <Copyright>Copyright 2018 by It-actief</Copyright>
+    <PackageReleaseNotes>0.0.4 - Added expresssions
+0.0.5 - Added database property to Entity
+0.0.6 - Added Contract, Renamed ClassTypeDeclaration, InterfaceDeclaration and ComplexTypeDeclaration. Made ComplexTypeDeclaration the new base.</PackageReleaseNotes>
+    <AssemblyVersion>0.0.6.0</AssemblyVersion>
+    <FileVersion>0.0.6.0</FileVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Design.Models</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mondop.Expressions" Version="0.0.1" />
+  </ItemGroup>
+
+</Project>

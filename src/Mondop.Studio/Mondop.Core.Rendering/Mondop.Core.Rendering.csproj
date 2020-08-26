@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard1.3;netstandard2.0</TargetFrameworks>
+    <Version>0.0.3-ALPHA003</Version>
+    <Authors>Marcel Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop</Product>
+    <Copyright>Copyright 2018 by It-actief</Copyright>
+    <PackageLicenseUrl>https://github.com/MondopDotCom/Mondop.Code.Rendering/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Code.Rendering</RepositoryUrl>
+    <PackageReleaseNotes>0.0.1 - Package that renders Mondop projects to a Mondop.CodeDom
+</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mondop.Abstractions" Version="1.0.4" />
+    <PackageReference Include="Mondop.CodeDom" Version="0.0.5-Alpha007" />
+    <PackageReference Include="Mondop.Core" Version="1.2.1" />
+    <PackageReference Include="Mondop.Design.Models" Version="0.0.7-ALPHA002" />
+    <PackageReference Include="Mondop.Guard" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

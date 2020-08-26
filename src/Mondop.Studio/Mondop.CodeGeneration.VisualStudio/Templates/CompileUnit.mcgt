@@ -1,0 +1,4 @@
+﻿<@ input Mondop.CodeDom.CompileUnit as compileUnit @>
+<@ foreach(ns in compileUnit.Namespaces) @>
+	<@ call(ns) @>
+<@ end @>

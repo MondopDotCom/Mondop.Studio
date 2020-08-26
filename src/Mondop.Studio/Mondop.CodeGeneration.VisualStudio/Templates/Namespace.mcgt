@@ -1,0 +1,40 @@
+﻿<@//
+	Template: C# namespace
+//@>
+<@ input Mondop.CodeDom.NamespaceDeclaration as namespace @>
+<@ foreach(using in namespace.Usings) @>
+	<@ call(using) @>
+<@ end @>
+<namespace name="<@ #namespace.QualifiedName @>">
+	<@ foreach(type in namespace.Types) @>
+		<@ call(type) @>
+	<@ end @>
+</namespace>
+
+<@//
+
+	<@// If Only can has 1 else, otherwise use @case@>
+	<@if()>
+	<@else@>
+	<@end@>
+
+	<@case@>
+		<@when(expression)@>
+
+		<@when()@>
+
+		<@when()@>
+
+		<@default@>
+	<@end@>
+
+# indicatie input reference
+@output <filename> ?? uitzoeken of nodig.
+// comment
+Operators < > = ! != <= =>
+
+Future allow variables
+@declare <name> as <type>
+types can be imported with @import <assembly>
+Operators like: + - / *
+@>
